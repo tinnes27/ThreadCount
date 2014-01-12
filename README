@@ -1,0 +1,19 @@
+﻿ThreadCount is an information visualization tool written using Processing.
+
+To run this application you will need to install Processing on your computer if you do not already have it.  See http://processing.org/ for information regarding download and setup if necessary.
+
+ThreadCount addresses the specific needs of Computer Science majors a the Georgia Institute of Technology with respect to the selecting their curriculum.  
+
+At Georgia Tech, computer science majors compose their major by choosing 2 out of eight possible “Threads”.  These Threads rage over a variety of topics with the field of computer science such as mobile devices, information networks, platforms, etc.  
+
+One of the challenges regarding this process is that information regarding these Thread options is distributed over 6 – 8 different sources.  For example, each Thread has it's own web page that details its specific course requirements, but the description of the courses are found on the main school course website.  While information regarding which terms specific courses are offered is located on a entirely different website.  
+
+The result is that computer science majors must visit many sources over and over again as the seek to flesh out which classes they might want to take and with curriculum track they might want to follow.
+
+ThreadCount is designed with 2 types of users in mind.  (1) Someone who is interested in possibly selecting computer science as a major, and (2) someone who is already a computer science major and wishes to investigate the their overall 4 year curriculum.  
+
+The application is designed for intuitive exploration.  A toy data set is loaded into the application on start up.  Only 2 tread options are implemented, Media & People (HCI).  This is to show the possible utility of this application, without having to fill the entire database.  A user can see all the course requirements from the drop down menu.  The drop down menu is organized in a hierarchical manner.  Top level categories separate main areas into basic types, such as “general core” vs. “media thread”, these Categories are further subdivided into Requirements, which contain one or more options to fill that requirement.  To fulfill the graduation requirement, one course from each Requirement must be selected.   
+
+On hover or on selection of a course from one the Requirement tabs, the details on demand window displays pertinent information about the course.  In addition, the prerequisite wheel displays all the courses needed before one may enroll in this course.  The depth in the wheel indicates the number of prerequisites a course has.  For example, on the outermost rung have no prerequisites.  While, courses on the fifth rung (the center of the wheel) have four levels of prerequisites.  
+
+I hope you enjoy exploring this application.  This project was done in my Information Visualization class, and the Computer Science department is currently looking at perhaps incorporating this tool into its official web page.  
